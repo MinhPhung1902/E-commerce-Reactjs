@@ -293,8 +293,8 @@ const Navbar = ({count, handleAddToCart, cart}) => {
                 <Link to='/Home' href="#">
                   <span className="sr-only">Workflow</span>
                   <img
-                    className="h-8 w-auto text-black"
-                    src="https://tailwindui.com/img/logos/workflow-mark.svg?color=black"
+                    className="h-24 w-auto text-black"
+                    src="./hoplogo.svg"
                     alt=""
                   />
                 </Link>
