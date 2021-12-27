@@ -18,6 +18,7 @@ import ErrorPage from './pages/ErrorPage'
 
 const allCategories = ['All',...new Set(items.map((item) => item.category))]
 
+
 const App = () => {
     //AddToCart
     const [count, setCount] = useState(0)
@@ -53,14 +54,11 @@ const App = () => {
         <Footer />
     </Router>
     )
+
 }
 
 export default App
 
-
-            
-            
-           
                     
                
               
